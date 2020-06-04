@@ -1,0 +1,434 @@
+
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+   */
+
+#main_wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+#main_header .text_my_name{
+margin-left: 2%;
+
+}
+
+#main_header ul{
+margin-right: 15%;
+
+}
+
+.typed_me {
+
+margin-left:21%;
+}
+
+#service_section p{
+
+color: #8318b1;
+
+}
+
+    .first_service:hover{
+        border-radius: 30%;
+    }
+ .second_service:hover{
+        border-radius: 30%;
+    }
+
+
+  .third_service:hover{
+        border-radius:30%;
+    }
+
+
+.selectnav{
+    
+    display: none;
+}
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    #main_header{
+        
+        width: 100%;
+    }
+    
+    #nav{
+    
+     display: none;
+    }
+    
+ .selectnav {
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: darkgray;
+}
+
+#main_header .text_my_name {
+    display:none;
+} 
+
+.typed_me {
+
+margin-left:9%;
+
+}
+
+.right_articale input{
+
+    margin-bottom: 10px;
+
+
+}
+
+   #main_header ul {
+    float: right;
+    margin-right: 10%;
+}
+    
+       #service_section p{
+        opacity: 100%;
+        color: black;
+        padding: 0px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+
+.third_service{
+margin:1%;
+
+}
+
+    
+    .first_service:hover{
+        border-radius: 16%;
+    }
+ .second_service:hover{
+        border-radius: 16%;
+    }
+
+
+  .third_service:hover{
+        border-radius: 16%;
+    }
+    
+        .first_skills li{
+      
+        margin: 20px 6px;
+        width: 90%;
+        
+    } 
+    
+}
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+    */
+
+@media only screen and (max-width: 767px) {
+	
+	
+    #nav{
+        display: none;
+    }
+ .selectnav {
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: darkgray;
+}
+
+
+    .typed_me {
+   
+  
+   
+}
+    
+    #main_header .text_my_name{
+        display: none;
+    }
+    #main_section input{
+        margin-left: 34%;
+    }
+    
+    .social_img {
+    margin-left: 30%;
+}
+    
+    .about_me {
+    height: auto;
+    max-width: 100%;
+}
+    
+   
+ .about_me .left_articale img {
+    margin-left: 16%;
+    width: 71%;
+    height: 500px;
+}
+    
+    .right_articale {
+    width: 100%;
+    float: none;
+    margin-left: 0px;
+}
+    .right_articale h2{
+        text-align: center;
+    }
+    
+    .right_articale .mydetails{
+       text-align: center;
+        
+    }
+    
+    .right_articale .my_details{
+        margin-left: 30%;
+    }
+    .right_articale input{
+         margin-left: 30%;
+        margin-bottom: 10px;
+    }
+    .left_articale {
+    float: none;
+    width: 100%;
+}
+    .first_skills li{
+      
+        margin: 20px 6px;
+        width: 91%;
+        
+    } 
+    
+    #content_my_skills{
+        
+        height: auto;
+    }
+    
+    .exprience_skills{
+        
+        height: auto;
+    }
+    
+    .first_skill{
+        
+        width: 100%;
+        float: none;
+        height: auto;
+        border-bottom: 4px solid #3a4e4e;
+        
+    } 
+    
+    
+    
+    .second_skill{
+         height: auto;
+        width: 100%;
+        float: none;
+         border-bottom: 4px solid #3a4e4e;
+    }
+     .third_skill{
+         height: auto;
+        width: 100%;
+        float: none;
+         border-bottom: 4px solid #3a4e4e;
+    } 
+
+    #service_section{
+        height: auto;
+    }
+    .first_service{
+        width: 90%;
+        float: none;
+        
+    }   
+    .second_service{
+        width: 90%;
+        float: none;
+        
+    }   .third_service{
+        width: 90%;
+        float: none;
+        
+    }
+    #service_section p{
+        opacity: 100%;
+        color: black;
+        padding: 0px;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+   */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+      #nav{
+        display: none;
+    }
+    
+     .selectnav {
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: darkgray;
+}
+
+    .typed_me {
+   
+    font-size: 2em;
+    margin-left: 3%;
+   
+}
+    
+    #main_header .text_my_name{
+       display: none;
+    }
+    #main_section input{
+        margin-left: 34%;
+    }
+    
+    .social_img {
+    margin-left: 30%;
+}
+    
+    .about_me {
+    height: auto;
+    max-width: 100%;
+}
+    
+   
+ .about_me .left_articale img {
+    margin-left: 16%;
+    width: 71%;
+    height: 500px;
+}
+    
+    .right_articale {
+    width: 100%;
+    float: none;
+    margin-left: 0px;
+}
+    .right_articale h2{
+        text-align: center;
+    }
+    
+    .right_articale .mydetails{
+       text-align: center;
+        
+    }
+    
+    .right_articale .my_details{
+        margin-left: 30%;
+    }
+    .right_articale input{
+         margin-left: 30%;
+        margin-bottom: 10px;
+    }
+    .left_articale {
+    float: none;
+    width: 100%;
+}
+    .first_skills li{
+      
+        margin: 20px 6px;
+        width: 91%;
+        
+    } 
+    
+    #content_my_skills{
+        
+        height: auto;
+    }
+    
+    .exprience_skills{
+        
+        height: auto;
+    }
+    
+    .first_skill{
+        
+        width: 100%;
+        float: none;
+        height: auto;
+        border-bottom: 4px solid #3a4e4e;
+        
+    } 
+    
+    
+    
+    .second_skill{
+         height: auto;
+        width: 100%;
+        float: none;
+         border-bottom: 4px solid #3a4e4e;
+    }
+     .third_skill{
+         height: auto;
+        width: 100%;
+        float: none;
+         border-bottom: 4px solid #3a4e4e;
+    } 
+
+    #service_section{
+        height: auto;
+    }
+    .first_service{
+        width: 90%;
+        float: none;
+        
+    }   
+    .second_service{
+        width: 90%;
+        float: none;
+        
+    }   .third_service{
+        width: 90%;
+        float: none;
+        
+    }
+    #service_section p{
+        opacity: 100%;
+        color: black;
+        padding: 0px;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+}
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	
+}
